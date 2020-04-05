@@ -17,17 +17,3 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-opacity-off";
 }
-
-function changeListNames() {
-	var w = window.outerWidth;
-	if (w <= 1000) {
-		document.getElementById("rockchange").innerHTML = "Rocker";
-		document.getElementById("corpchange").innerHTML = "Corp";
-		document.getElementById("netchange").innerHTML = "Net";
-	}
-	if (w > 1000) { 
-		document.getElementById("rockchange").innerHTML = "Rockerboys";
-		document.getElementById("corpchange").innerHTML = "Corporates";
-		document.getElementById("netchange").innerHTML = "Netrunners";
-	}
-}
